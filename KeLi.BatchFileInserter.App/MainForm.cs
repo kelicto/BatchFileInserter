@@ -29,7 +29,7 @@ namespace KeLi.BatchFileInserter.App
                 {
                     MessageBox.Show("Please select files!");
 
-                    btnSelect.Focus();
+                    btnSelect.PerformClick();
 
                     return;
                 }
